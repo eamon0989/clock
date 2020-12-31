@@ -1,0 +1,25 @@
+body {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr min(65ch, 100%) 1fr;
+}
+
+h1 {
+    display: grid;
+    grid-column: 2;
+    place-items: center;
+}
+
+#clock {
+    display: grid;
+    grid-column: 2;
+    place-items: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    display: grid;
+    grid-column: 2;
+    background-color: rgb(227, 230, 64);
+}
